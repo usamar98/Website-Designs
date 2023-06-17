@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+.images{
+    display: flex;
+  }
+  
+  .images img {
+    flex: 1;
+    object-fit: cover;
+    width: 50%;
+    height: 100vh;
+  }
+header{
+    margin-top: -50%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+
+}
+.left span{
+    margin: 0%;
+    font-size: 1.6rem;
+    letter-spacing: 10px;
+
+}
+.middle ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+
+}
+.right span{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 100%;
+}
+.body-div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin:15%;
+
+}
+.body-div .span-2{
+    font-size: 3.2rem;
+
+}
+.body-div .span-3{
+    font-size: 3.2rem;
+
+}
+.section1 .types{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+/* ---------------------------------------section 2---------------------------------------------- */
+.section2{
+    width: 100vw;
+    height: 100vh;
+}
+.section2 .types{
+    display: flex;
+    padding: 5% 20%;
+    gap: 10%;
+    font-size: 1.8rem;
+    text-decoration: underline;
+
+}
+.container {
+    /* width: 100%; */
+    overflow: hidden;
+    
+  }
+  .container button{
+
+    
+  }
+  
+  .products {
+    display: flex;
+    margin-left: 10%;
+    transition: transform 0.3s ease;
+  }
+  
+  .product {
+    /* flex: 0 0 100px; */
+    display: flex;
+    margin: 5px;
+    width: 25%;
+    flex-direction: column;
+  }
+  .product img{
+    background-color: lightgray;
+
+  }
+/* --------------------------------------Section3------------------------------------------- */
+.section3{
+  width: 100vw;
+  /* height: 100vh; */
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; 
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay span{
+  display: flex;
+  flex-direction: row;
+}
+
+.overlay h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.section3 .types{
+  display: flex;
+  padding: 10% 40%;
+  gap: 30%;
+  font-size: 1.8rem;
+  text-decoration: underline;
+
+  
+}
+/* ----------------------------------section4---------------------------------------- */
+.section4{
+ 
+  position: relative;
+  width: 100vw;
+}
+.text{
+  padding-top: 15%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.section4 .span1{
+  font-size: 2.2rem;
+ color: black;
+ font-weight:900 ;
+}
+.section4 .span2{
+  font-size: 1.2rem;
+ color: black;
+ font-weight:700 ;
+}
+.section4 hr{
+ padding-top: 5%;
+}
+.section4 .types{
+  padding-left: 5%;
+  font-size: 2rem;
+}
+.section4 .product {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.section4 .product .span{
+  border: 1px solid;
+  
+}
+.section4 .product span{
+  text-align: center;
+}
+.section5{
+  width: 100vw;
+  height: 100vh;
+}
+.newsletter{
+  font-size: 2rem;
+  margin-left: 5%;
+}
+.explain{
+  font-size: 1.2rem;
+  margin-left: 5%;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 2% 10%;
+}
+
+.input-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container button {
+  padding: 10px 15px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.section5-data{
+  padding: 10% 15%;
+}
+.icons{
+  display: flex;
+  gap: 10%;
+  justify-content: end;
+  padding-right:10% ;
+  
+}
+.icons .icon1{
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 15px;
+  background-color: #ccc;
+}
+.icons .icon2{
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 15px;
+  background-color: #ccc;
+}
